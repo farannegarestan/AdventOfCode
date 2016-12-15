@@ -44,7 +44,7 @@ object PartTwo {
     println(findFirstDuplicate(history, Set()))
   }
   
-  def findFirstDuplicate(hist: List[Tuple2[Int,Int]], visited: Set[Tuple2[Int, Int]]) : Option[Tuple2[Int, Int]] = {
+  def findFirstDuplicate[T](hist: List[T], visited: Set[T]) : Option[T] = {
     if (hist.isEmpty) {
       None
     } else if(visited.contains(hist.head)) {
