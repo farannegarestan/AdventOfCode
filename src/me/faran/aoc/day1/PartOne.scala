@@ -1,6 +1,6 @@
-package me.faran.aoc
+package me.faran.aoc.day1
 
-object DayOne {
+object PartOne {
   val input = List("L1", "L3", "L5", "L3", "R1", "L4", "L5", "R1", "R3", "L5", "R1", 
       "L3", "L2", "L3", "R2", "R2", "L3", "L3", "R1", "L2", "R1", "L3", "L2", "R4", 
       "R2", "L5", "R4", "L5", "R4", "L2", "R3", "L2", "R4", "R1", "L5", "L4", "R1", 
